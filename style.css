@@ -1,0 +1,67 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #display{
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    padding: 50px;
+    height: 41.2px;
+    width: 150px;
+    border: 2px solid black;
+    margin-right: 13px;
+  }
+  #calc{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;  
+    width: 270px;
+  }
+  
+  #nums{
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+  }
+  #numbot, #nummid, #numtop{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px;
+    width: 250px;
+  }
+  
+  
+  
+  #ops{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 5px;
+    margin-right: 13.7px;
+  }
+  
+  #plus, #minus, #divide, #times, #equal{
+    width: 30px;
+  }
+  
+  
+  
+  #C{
+    display: flex; 
+    flex-wrap: wrap;
+    
+  }
+  
+  #clear{
+    margin-top: 10px;
+    margin-right: 13px;
+  }
+  
+  
